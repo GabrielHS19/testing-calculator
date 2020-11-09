@@ -38,4 +38,13 @@ describe('addition unit tests',()=> {
         expect(result).toBe(2.4);
        })
 
+       it('Should add 2 + 10 = 12', () => {
+        //Arrangin
+        let result =0;
+        //Act
+        result = addition(2,10);
+        //Assert
+        expect(result).toBe(12);
+       })
+
 })
