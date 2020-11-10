@@ -30,7 +30,7 @@ describe('addition unit tests',()=> {
         expect(result).toBe(4);
        })
 
-       it('Should pow 2 + 3 = 8', () => {
+       it('Should pow 2 ^ 3 = 8', () => {
         //Arrangin
         let result =0;
         //Act
