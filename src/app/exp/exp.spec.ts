@@ -1,6 +1,6 @@
 import {exp} from "./exp"
 
-describe('addition unit tests',()=> {
+describe('exp unit tests',()=> {
 
  
     it('Should pow 2 ^ 0 = 1', () => {
