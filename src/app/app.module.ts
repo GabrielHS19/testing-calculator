@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {FormsModule} from '@angular/forms';
 import { AppComponent } from './app.component';
 import { UiComponent } from './ui/ui.component';
+
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { UiComponent } from './ui/ui.component';
     UiComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
