@@ -164,6 +164,36 @@ describe('Ui Substraction - Component', () => {
      
   });
 
+  it('Should set operator1 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator1"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '3.1416';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator1).toEqual(3.1416);
+  });
+ 
+  it('Should set operator2 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator2"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '2.71';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator2).toEqual(2.71);
+  });
+
 });
 
 describe('Ui Multiplication - Component', () => {
@@ -228,6 +258,36 @@ describe('Ui Multiplication - Component', () => {
     // Assert
     expect(el.innerText).toContain('30');
      
+  });
+
+  it('Should set operator1 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator1"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '3.1416';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator1).toEqual(3.1416);
+  });
+ 
+  it('Should set operator2 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator2"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '2.71';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator2).toEqual(2.71);
   });
 
 });
@@ -296,6 +356,36 @@ describe('Ui Division - Component', () => {
      
   });
 
+  it('Should set operator1 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator1"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '3.1416';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator1).toEqual(3.1416);
+  });
+ 
+  it('Should set operator2 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator2"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '2.71';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator2).toEqual(2.71);
+  });
+
 });
 
 describe('Ui Exp - Component', () => {
@@ -360,6 +450,36 @@ describe('Ui Exp - Component', () => {
     // Assert
     expect(el.innerText).toContain('36');
      
+  });
+
+  it('Should set operator1 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator1"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '3.1416';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator1).toEqual(3.1416);
+  });
+ 
+  it('Should set operator2 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator2"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '2.71';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator2).toEqual(2.71);
   });
 
 });
@@ -428,6 +548,36 @@ describe('Ui Sqr - Component', () => {
      
   });
 
+  it('Should set operator1 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator1"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '3.1416';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator1).toEqual(3.1416);
+  });
+ 
+  it('Should set operator2 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator2"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '2.71';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator2).toEqual(2.71);
+  });
+
 });
 
 describe('Ui Sqrt - Component', () => {
@@ -492,6 +642,36 @@ describe('Ui Sqrt - Component', () => {
     // Assert
     expect(el.innerText).toContain('2');
      
+  });
+
+  it('Should set operator1 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator1"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '3.1416';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator1).toEqual(3.1416);
+  });
+ 
+  it('Should set operator2 model through ngModel', async() => {
+    // Arrange 
+    await fixture.whenStable();
+    fixture.detectChanges();
+    const inputElement = fixture.debugElement.query(By.css('input[name="operator2"]')).nativeElement;
+
+    // Act 
+    inputElement.value = '2.71';
+    inputElement.dispatchEvent(new Event('input'));
+    fixture.detectChanges();
+
+    // Assert 
+    expect(component.operator2).toEqual(2.71);
   });
 
 });
