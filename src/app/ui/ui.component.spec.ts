@@ -7,19 +7,6 @@ describe('Ui Addition - Component', () => {
   let component: UiComponent;
   let fixture: ComponentFixture<UiComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ UiComponent ],
-      imports: [FormsModule],
-    })
-    .compileComponents();
-  }));
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(UiComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
 
   it('Should call addition method', () => {
      // Arrange
